@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-image: url(../assets/fundo.png);
+    background-color: #363637;
+}
+h1,h3,h2,.final,.texto{
+    font-family:'IBM Plex Sans';
+}
+article p,.eu,ul{
+    font-family: 'Heebo';
+}
+h1,h3,.texto,article p,h2,ul,a,.final{
+    color: white;
+}
+h1{
+    text-align: center;
+    width: 127px;
+    font-size: 54px;
+    margin-top: 24px;
+    margin-left: 128px;
+}
+article{
+    text-align: center;
+    margin-top: 203px;
+}
+h3{
+    font-weight: 700;
+    font-size: 40px;
+}
+article p{
+    margin-left: 60vh;
+    width: 250px;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.texto{
+    margin-right: 122px;
+    margin-top: 370px;
+}
+.texto h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+.texto p{
+    margin-left: 128px;
+}
+.eu{
+    justify-content: space-between;
+    display: flex;
+    gap: 200px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.italo{
+    height: 300px;
+}
+h2{
+    margin-left: 128px;
+    font-weight: 700;
+    font-size: 40px;
+}
+ul{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 128px;
+}
+.contatos{
+    list-style: none;
+}
+.imagens{
+    margin-top: 50px;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 310px;
+    margin-right: 309px;
+}
+img{
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+}
+.final{
+    display: block;
+    border: 1px solid red;
+    margin-left: auto;
+    width: 100%;
+    background-color: #363637;
+}
+h4{
+    margin-left: 100px;
+}
